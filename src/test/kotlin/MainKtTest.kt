@@ -23,7 +23,7 @@ class MainKtTest {
     @Test
     fun calcPaymentCommissionDefault() {
         assertEquals(calcPaymentCommission(10), 0)
-        assertEquals(calcPaymentCommission(100), 0)
+        assertEquals(calcPaymentCommission(100), 10)
         assertEquals(calcPaymentCommission(1000), 0)
         assertEquals(calcPaymentCommission(10000), 0)
         assertEquals(calcPaymentCommission(100000), 0)
